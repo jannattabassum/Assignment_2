@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- This HTML file was created by Md. Tahmid (ID: 1902018) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Galleries</title>
+</head>
+<body>
+    <header>
+        <h1>Image Galleries</h1>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#landscape-gallery">Landscape Gallery</a></li>
+            <li><a href="#food-gallery">Food Gallery</a></li>
+            <li><a href="#Contact_Us">Contact Us</a></li>
+            <li><a href="#About">About</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="row">
+        <h1>Landscape Gallery</h1>
+        <div class="gallery">
+            <div class="thumbnail" onclick="openLandscape('image1.jpg')">
+                <img src="image1-thumb.jpg" alt="Landscape 1">
+            </div>
+            <div class="thumbnail" onclick="openLandscape('image2.jpg')">
+                <img src="image2-thumb.jpg" alt="Landscape 2">
+            </div>
+            <div class="thumbnail" onclick="openLandscape('image3.jpg')">
+                <img src="image3-thumb.jpg" alt="Landscape 3">
+            </div>
+            <div class="thumbnail" onclick="openLandscape('image4.jpg')">
+                <img src="image4-thumb.jpg" alt="Landscape 4">
+            </div>
+            <div class="thumbnail" onclick="openLandscape('image5.jpg')">
+                <img src="image5-thumb.jpg" alt="Landscape 5">
+            </div>
+            <div class="thumbnail" onclick="openLandscape('image6.jpg')">
+                <img src="image6-thumb.jpg" alt="Landscape 6">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Food Gallery</h1>
+        <div class="gallery">
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?w=1060&t=st=1691598455~exp=1691599055~hmac=78b31d040dddb5896623e02798f66eae0c91bab3d2ed405513f41281d4553ecc')">
+                <img src="https://img.freepik.com/free-photo/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.jpg?w=1060&t=st=1691598455~exp=1691599055~hmac=78b31d040dddb5896623e02798f66eae0c91bab3d2ed405513f41281d4553ecc" alt="Food 11">
+            </div>
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?w=996&t=st=1691599565~exp=1691600165~hmac=2cbcffca55171129c0b3602fbb9a4223470876079a3f2cf9e3cd31fc21963d12')">
+                <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?w=996&t=st=1691599565~exp=1691600165~hmac=2cbcffca55171129c0b3602fbb9a4223470876079a3f2cf9e3cd31fc21963d12" alt="Food 12">
+            </div>
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?w=996&t=st=1691598863~exp=1691599463~hmac=b0b45e278079e81ff96c2d54c9b1c242dc04fe3a133f1e0dd8b566181172a476')">
+                <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?w=996&t=st=1691598863~exp=1691599463~hmac=b0b45e278079e81ff96c2d54c9b1c242dc04fe3a133f1e0dd8b566181172a476" alt="Food 13">
+            </div>
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?w=996&t=st=1691598870~exp=1691599470~hmac=cb18940dfafe8496a381b37ba2e4f6537700701fcf2bfb31751a7ffdec8ec1af')">
+                <img src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?w=996&t=st=1691598870~exp=1691599470~hmac=cb18940dfafe8496a381b37ba2e4f6537700701fcf2bfb31751a7ffdec8ec1af" alt="Food 14">
+            </div>
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=996&t=st=1691598934~exp=1691599534~hmac=4c74794e5c5146279903917f76d8396a2baab8c372c1d4d753d930c7df036dde')">
+                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=996&t=st=1691598934~exp=1691599534~hmac=4c74794e5c5146279903917f76d8396a2baab8c372c1d4d753d930c7df036dde" alt="Food 15">
+            </div>
+            <div class="thumbnail" onclick="openFood('https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg?w=996&t=st=1691598936~exp=1691599536~hmac=2a216433eb7d8ecdb4c02f8a20e580c4fcadf974e37e554ccdff67d84802f51d')">
+                <img src="https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg?w=996&t=st=1691598936~exp=1691599536~hmac=2a216433eb7d8ecdb4c02f8a20e580c4fcadf974e37e554ccdff67d84802f51d" alt="Food 16">
+            </div>
+        </div>
+    </div>
+
+    <div class="landscape" id="landscape">
+        <span class="close" onclick="closeLandscape()">&times;</span>
+        <img src="" alt="Full-sized Image" id="landscape-img">
+    </div>
+    <div class="food" id="food">
+        <span class="close" onclick="closeFood()">&times;</span>
+        <img src="" alt="Full-sized Image" id="food-img">
+    </div>
+</body>
+    <footer>
+        <p>&copy; 1902018 Md. Tahmid. All rights reserved.</p>
+    </footer>
+<script src="scripts.js"></script>
+</html>

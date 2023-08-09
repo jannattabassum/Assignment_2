@@ -1,0 +1,57 @@
+body {
+display: flex; /*This CSS file was created by Md. Tahmid (ID: 1902018) */
+justify-content: center;
+align-items: center;
+height: 100%;
+margin: 0;
+}
+
+.box {
+  width: 800px;
+  height: 600px;
+  background-color: #dcd883;
+  margin: 50px;
+  padding-left: 10px;
+  border: 4px solid rgb(139, 0, 0);
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.inner-box1 {
+  width: 700px;
+  height: 200px;
+  margin: 10px;
+  padding: 0px; 
+  border: 5px solid #ca7e1b;
+  position: absolute;
+}
+
+.inner-box2 {
+  width: 700px;
+  height: 270px;
+  background-color: #eeff00;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 0px;
+  border: 5px solid #ca7e1b;
+  border-style: dashed;
+  position: absolute;
+  text-align: justify;
+  overflow: auto;
+}
+
+img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block;
+  margin: 0;
+}
+
+p {
+    padding: 10px;
+    padding-top: 0px;
+    margin: 10px;
+    font-size: 18px;
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*This CSS file was created by Md. Tahmid (ID: 1902018) */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background-color: #013f5c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #bc5800;
+  padding: 10px 0;
+  text-align: left;
+  margin: 0;
+  padding-left: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s ease-in-out;
+}
+
+nav a:hover {
+  color: #fffb00;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin: 0 5px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container img {
+  max-width: 180px;
+  height: 200px;
+}
+
+.column:first-child {
+  flex-basis: 15%;
+}
+
+.column:nth-child(2) {
+  flex-basis: 60%;
+}
+
+.column:last-child {
+  flex-basis: 25%;
+}
+
+.column p {
+  margin-bottom: 10px;
+}
+
+.column h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-form button {
+  align-self: flex-start;
+}
+
+.price {
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #013f5c;
+  color: #fff;
+  margin-top: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #bc5800;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  background-color: #013f5c;
+  color: #fff;
+  padding: 10px;
+  font-size: 17px;
+}

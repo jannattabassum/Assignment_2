@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }/*This CSS file was created by Md. Tahmid (ID: 1902018) */
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #0f2c44;
+    color: rgb(255, 255, 0);
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .nav ul {
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #235984;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .products, .about {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+  }
+  
+  .products h2, .about h2 {
+    color: #35495e;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .products ul, .about p {
+    font-size: 18px;
+  }
+  
+  .products ul li {
+    position: relative;
+    left: 20px;
+  }
+
+  .products ul li a{
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #0f2c44;
+    color: white;
+    margin-top: 78px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

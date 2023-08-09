@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- This HTML file was created by Md. Tahmid (ID: 1902018) -->
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="registration-form">
+    <h1>REGISTRATION FORM</h1>
+    <form id="registrationForm" onsubmit="return validateForm()">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Password must be 8 digit long" minlength="8">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="example@gmail.com" name="email" required>
+
+      <label for="mobile">Mobile Number:</label>
+      <input type="number" id="mobile" name="mobile" required pattern="[0-9]">
+      <small>Format: 11 digits without spaces or dashes</small><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>
